@@ -1,0 +1,134 @@
+/*===== 
+fonts
+===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*=========
+ common files or utilities
+======= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+/*===================
+ top-players-style
+=================== */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    background-color: #ffff;
+    width: 870px;
+    padding: 30px;
+    margin-bottom: 21px;
+    border-radius: 5px;
+}
+.section-title {
+    font-size: 24px;
+    color:#562EFF;
+    margin-top: 3px;
+    
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+.player {
+    display: flex;
+    align-items: center;
+ 
+}
+.player img {
+   height: 56px;
+   width: 56px;
+}
+hr {
+    border: 1px solid #D1D1D1;
+    margin-top: 33px;
+}
+
+/* ==========
+top-blogs styling
+============== */
+.blog {
+    display: flex;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+.blog-info {
+    margin-left: 14px;
+}
+.blog-title {
+    margin: 0;
+    font-size: 20px;
+}
+.blog-author {
+    margin: 6px;
+}
+.blog-author a{
+    text-decoration: none;
+    color:#562EFF;
+}
+
+/*============
+ latest-course-styles
+========== */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.courses .course-banner img {
+    height:104px;
+    width: 224px;
+}
+.course-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.course-author a{
+    text-decoration: none;
+    color: #ED6B4F;
+}
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+   
+   
+}
+.course-info .course-duration {
+    display: flex;
+    align-items: center;
+    
+}
+
+.fa-star.filled {
+    color:#FFC014;
+}
+.fa-star.empty {
+    color:#AEAEAE
+}
+.fas.fa-clock {
+    color:
+    #FF4A60;
+    font-weight: 200;
+}
